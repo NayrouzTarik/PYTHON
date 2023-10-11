@@ -1,3 +1,5 @@
+#write a python script that allows you to test whether two integers by the user have the same sign or not
+
 a = int(input("give the first number\n"))
 b = int(input("give the second number\n"))
 
