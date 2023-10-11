@@ -1,8 +1,15 @@
+"""
+write a python script which allows you to solve the second degree equation (a, b , c are int)
+    step 1 = user should enter the 3 values
+    step 2 = the zero values for a , b and c should be introduced
+"""
+
+
 import math
 
-a = float(input("give the first param \n"))
-b = float(input("give the second param \n"))
-c = float(input("give the third param \n"))
+a = int(input("give the first param \n"))
+b = int(input("give the second param \n"))
+c = int(input("give the third param \n"))
 
 print("the equation is :",end = " ")
 print(f"{a}x2 + {b}x + {c}")
