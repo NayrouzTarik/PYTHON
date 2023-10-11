@@ -1,0 +1,39 @@
+PYTHON :
+***Internally, Python converts the source code into an intermediate form called bytecodes which is then translated into 
+	native language of specific computer to run it.
+
+***No need to worry about linking and loading with libraries, etc
+
+*** expression : for exp 5 + 5 ,... ;   A piece of syntax which can be evaluated to some value , !!!! and have a return value !!!!
+
+*** in Python its not like C here arthmetic operator works in mathematical order and no need for a () or anything
+	so basicaly "* , /" always are first in an expression , and then " + , -" ; if we have a "* , / " in the same expression then in this case 
+	we go from from right to left and so go on "5 * 7 - 3 / 3" it will do ( 5*7 then 3/3 and after 35 - 1)
+*** if we want to force an operation to be first we use () by then. " 5 * (2 + 3) / (1 + 1)" the here the + op will be first
+*** in case we work in complex numbers we can use () just for clarty 
+!!!!!!!also i can use multp () in each other ((( 12 / 6) - 1) + 2) , EXTRA WORK FOR A CLEAR WORK
+
+
+							****SYNTHAXE OF PYTHON****
+***are typing rules for the language, 		
+*** round(number, number after the coma) : this fct returns a float value to an a desired float with a specific
+					number of numbrs after the coma value like : 5 / 2 = 2.5 then round(2.5) = 2;
+					so basically we are passing an arg to the round fct, also if we had round(2.555, 1) it will give us = 2.6
+					it can also be writtin as round(10/3, 2) depends on choice , so here the 10/3 will be excuted
+					first and the the round fct will do her task
+
+***ROUND UP AND ROUND DOWN: first we import the math so we can use fct from it
+		import math :  statement in Python allows you to access and use various mathematical functions
+						and constants that are defined in the Python math module
+		------ROUND UP : math.ceil(nbr here) : up to the nearest integer greater than or equal to "nbr here"
+		------ROUND DOWN :math.floor(nbr here) : down the nearest int lower or equal to "nbr here"
+
+**** to open the interactive mode in python we use ctrl+shift+p = then we choose REPL ;
+
+						****A CLASS IN PYTHON****
+****its like a struct in C where we can assamble multiple variables, but in pythin we can add functions inside it some def or even
+	another class****
+
+
+					
+
