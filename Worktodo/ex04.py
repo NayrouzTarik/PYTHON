@@ -1,3 +1,6 @@
+#write a python script that allows you to search and then display the max value of N numbers entred by the users
+
+
 range = int(input("give the number \n"))
 if range < 0 :
     print("Please, give a positive number")
