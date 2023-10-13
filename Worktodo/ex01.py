@@ -1,5 +1,3 @@
-#write a program in Python language that allows the exchange of the contents of three digital data (right rotation)
-
 
 a = input("give the first arg ")
 b = input("give the second arg ")

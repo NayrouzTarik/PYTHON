@@ -33,6 +33,8 @@ PYTHON :
 						****A CLASS IN PYTHON****
 ****its like a struct in C where we can assamble multiple variables, but in pythin we can add functions inside it some def or even
 	another class****
+**** basically class regroup all infos and data about what we are working on 
+***steps to create a class :
 
 
 					
